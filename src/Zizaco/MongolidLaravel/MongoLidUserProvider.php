@@ -54,8 +54,7 @@ class MongoLidUserProvider implements UserProviderInterface
     public function retrieveByCredentials(array $credentials)
     {
         unset($credentials['password']);
-
-        return $this->createModel()->first($credentials);
+        return $this->createModel()->first($credentials) ?: null;
     }
 
     /**
