@@ -1,3 +1,4 @@
+# forking until [this is merged](https://github.com/Zizaco/mongolid-laravel/pull/50)
 ![MongoLid](https://dl.dropboxusercontent.com/u/12506137/libs_bundles/mongolid_banner.png)
 
 # MongoLid (Laravel4 Package)
